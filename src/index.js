@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'; //change this
+import Homepage from './HomepageLayout'
+import 'semantic-ui-css/semantic.min.css'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Homepage />  
   </React.StrictMode>,
   document.getElementById('root')
 );
